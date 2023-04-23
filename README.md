@@ -5,16 +5,16 @@
 
 核心计算逻辑通过TextView自带的```onLayout```和```onTextLayout```事件实现，不依赖原生代码。
 
-####demo演示
+#### demo演示
 <img src="./expand.gif" height="50%", width="50%">
 
-#####手动导入：
+##### 手动导入：
 拷贝src目录中的文件和资源到你的项目
 
-#####npm:
+##### npm:
 npm install zq-react-native-expandable-text --save（还在测试中）
 
-####依赖
+#### 依赖
 UI实现依赖以下项目，可自行替换成其他组件
 >react-native-fast-image
 >
