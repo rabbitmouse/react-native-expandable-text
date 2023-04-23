@@ -1,6 +1,6 @@
 
 {
-  "name": "react-native-expandable-text",
+  "name": "zq-react-native-expandable-text",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,11 +8,33 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "expandable",
+    "text",
+    "expandable-text"
   ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rabbitmouse/react-native-expandable-text.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "harriszhu",
+    "email": "578259544@qq.com"
+  },
   "license": "",
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "react": "17.0.2",
+    "react-native": "0.67.3"
+  },
+  "dependencies": {
+    "react-native-fast-image": "8.6.3",
+    "react-native-linear-gradient": "^2.6.2"
   }
 }
