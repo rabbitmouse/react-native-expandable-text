@@ -6,7 +6,7 @@
 核心计算逻辑通过TextView自带的```onLayout```和```onTextLayout```事件实现，不依赖原生代码。
 
 #### demo演示
-<img src="https://raw.githubusercontent.com/rabbitmouse/react-native-expandable-text/main/expand.gif" height="50%", width="50%">
+![demo](./expand.gif)
 
 ##### 手动导入：
 拷贝src目录中的文件和资源到你的项目
