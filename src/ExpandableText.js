@@ -9,9 +9,9 @@ import {
 import FastImage from 'react-native-fast-image';
 import LinearGradient from 'react-native-linear-gradient'
 
-import styles from '../styles/expandableText';
+import styles from './styles/expandableText';
 
-const ICON_PATH = require('app/images/expandArrow.webp')
+const ICON_PATH = require('./expandArrow.webp')
 
 // 这个常量很重要，用于计算offset，如果文案发生改变，需要更新这个值
 // const BUTTON_WIDTH = p(140)
