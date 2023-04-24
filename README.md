@@ -11,11 +11,11 @@
 ##### 手动导入：
 拷贝src目录中的文件和资源到你的项目
 
-##### npm:
-npm install zq-react-native-expandable-text --save（还在测试中）
+##### NPM:
+npm install zq-react-native-expandable-text --save
 
 #### 依赖
-UI实现依赖以下项目，可自行替换成其他组件
+UI实现依赖以下项目，请手动在项目的package.json中引入这两个项目，并在iOS目录下执行pod install
 >react-native-fast-image
 >
 >react-native-linear-gradient
