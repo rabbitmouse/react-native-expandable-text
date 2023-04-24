@@ -1,6 +1,4 @@
 
-import { NativeModules } from 'react-native';
+import ExpandableText from "./src/ExpandableText";
 
-const { RNExpandableText } = NativeModules;
-
-export default RNExpandableText;
+export default ExpandableText;

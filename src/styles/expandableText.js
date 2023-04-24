@@ -1,13 +1,10 @@
 import { StyleSheet } from 'react-native';
 
-import { colors } from 'app/styles/Common';
-import p from 'app/utils/Transfrom';
-
 const styles = StyleSheet.create({
   descText: {
-    color: colors.gray3,
-    lineHeight: p(33),
-    fontSize: p(24)
+    color: '#8e939f',
+    lineHeight: 16,
+    fontSize: 12
   },
   expandWrapper: {
     flexDirection: 'row',
@@ -23,23 +20,23 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   buttonContent: {
-    backgroundColor: colors.pureWhite,
+    backgroundColor: '#fff',
     flexDirection: 'row',
     alignItems: 'center'
   },
   buttonText: {
-    color: colors.black3,
-    lineHeight: p(33),
-    fontSize: p(24)
+    color: '#1f2126',
+    lineHeight: 16,
+    fontSize: 12
   },
   gradientView: {
     flex: 1,
-    minWidth: p(60),
-    height: p(33)
+    minWidth: 30,
+    height: 16
   },
   arrowIcon: {
-    width: p(24),
-    height: p(16)
+    width: 12,
+    height: 8
   }
 });
 

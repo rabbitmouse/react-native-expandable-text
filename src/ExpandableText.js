@@ -9,8 +9,6 @@ import {
 import FastImage from 'react-native-fast-image';
 import LinearGradient from 'react-native-linear-gradient'
 
-import p from 'app/utils/Transfrom';
-import { isEmpty, max } from 'lodash';
 import styles from '../styles/expandableText';
 
 const ICON_PATH = require('app/images/expandArrow.webp')
@@ -49,11 +47,11 @@ const ExpandableText = (props) => {
   } = props
 
   const { 
-    lineHeight = p(33), 
+    lineHeight = 16, 
   } = textStyle
 
   const { 
-    fontSize: buttonFontSize = p(24),
+    fontSize: buttonFontSize = 12,
   } = buttonStyle
 
   const {
@@ -78,9 +76,9 @@ const ExpandableText = (props) => {
 
   // 定义 其他辅助变量
   // 按钮宽度，用于计算偏移量：字数 * 字体大小 +  icon宽度 + 固定渐变遮罩宽度
-  const maskWidth = p(60)
+  const maskWidth = 30
   const buttonWidth = useMemo(()=> {
-    return max([normalText.length, expandText.length]) * buttonFontSize + p(24) + maskWidth
+    return Math.max(normalText.length, expandText.length) * buttonFontSize + 12 + maskWidth
   }, [normalText, expandText, buttonFontSize]) 
   const currentLines = useRef([])
 
@@ -229,7 +227,7 @@ const ExpandableText = (props) => {
   }
 
   // 处理边界
-  if (isEmpty(content)) {
+  if (!content) {
     return null
   }
   // 渲染组件
