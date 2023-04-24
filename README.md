@@ -18,13 +18,13 @@ npm install zq-react-native-expandable-text --save（还在测试中）
 UI实现依赖以下项目，可自行替换成其他组件
 >react-native-fast-image
 >
->react-native-linear-gradient】
+>react-native-linear-gradient
 
-#### 使用
+#### 基本使用
 ```
 <ExpandableText
-	width={screenWidth - 2 * padding}
-	content={text}
+  width={screenWidth - 2 * padding}
+  content={text}
 />
 ```
 
