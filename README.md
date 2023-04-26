@@ -2,7 +2,7 @@
 
 <a href="./README.zh-CN.md">简体中文</a> | <a href="./README.md">English</a>
 
-#### 简介
+#### Introduction
 ```zq-react-native-expandable-text```is an expandable and collapsible Text component. Support buttons trailing the end of the text when expanded. It has been adapted to iOS and Android, and supports certain UI configurations 
 
 The core calculation logic is implemented through the ```onLayout``` and ```onTextLayout``` events that come with TextView, without relying on native code.
