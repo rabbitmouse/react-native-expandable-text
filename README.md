@@ -41,7 +41,8 @@ The UI depends on the following items, please manually introduce these two items
 | `buttonConfig` | `object` | no | {iconPath, normalText, expandText}
 | `buttonStyle` | `object ` | no | {lineHeight, color, fontSize}
 
-
+#### Other
+If you like this component, please help to click start, thank you very much
 
 
 

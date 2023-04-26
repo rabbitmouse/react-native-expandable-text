@@ -41,3 +41,6 @@ UI实现依赖以下项目，请手动在项目的package.json中引入这两个
 | `buttonConfig` | `object` | no | {iconPath, normalText, expandText}
 | `buttonStyle` | `object ` | no | {lineHeight, color, fontSize}
 
+
+#### 其他
+如果你喜欢此组件，请帮忙点个start，非常感谢
